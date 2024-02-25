@@ -1,0 +1,184 @@
+Your package was submitted! 🎉
+Transaction ID: txid_rdx1stx273z4qewlqkygd0xq3hmtyhjm0jyl2ye6prfk8m5rc2j8ae2qqyllzl
+Package address: package_rdx1phtl6486q77dvsusa4pkft4dt5yzgfyt3p5grmynm76ue79epwz9k8
+
+# Instantiate Rrc404 component on stokenet
+
+CALL_FUNCTION
+    Address("package_rdx1phtl6486q77dvsusa4pkft4dt5yzgfyt3p5grmynm76ue79epwz9k8")
+    "Rrc404"
+    "instantiate_rrc404"
+    Decimal("1000")
+    "Ice"
+    "Water"
+    "ICE"
+    "ICE RRC404 Experiment"
+;
+CALL_METHOD
+    Address("account_rdx12xl3s3zf3w72m959f0xglwtpm4dfjpjsmqz0fk3a90rcuhshgh79e2")
+    "deposit_batch"
+    Expression("ENTIRE_WORKTOP")
+;
+
+Your transaction was submitted! 🎉
+Tx ID
+txid_rdx1h0ua3znkj60dp4ph5zzwj2u6l8pyqngurm3txlu4p5lr08jjrz0sx6ls95
+
+ice component
+component_rdx1czscv9f2mv034hewjplej5ef4f2ecug2fxxelfpgxrsrhw4mglq2yp
+ice fungible
+resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4
+ice nft
+resource_rdx1n2y299ekzx4au2v9yjmxzu650ulvk5ndx3u5tlevfclk0uvdgs30px
+
+
+// freeze 50.1 fungibles -> nfts
+
+CALL_METHOD
+    Address("account_rdx12xl3s3zf3w72m959f0xglwtpm4dfjpjsmqz0fk3a90rcuhshgh79e2")
+    "withdraw"
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("50.1")
+;
+TAKE_ALL_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Bucket("payment_bucket")
+;
+CALL_METHOD
+    Address("component_rdx1czscv9f2mv034hewjplej5ef4f2ecug2fxxelfpgxrsrhw4mglq2yp")
+    "freeze"
+    Bucket("payment_bucket")
+;
+CALL_METHOD
+    Address("account_rdx12xl3s3zf3w72m959f0xglwtpm4dfjpjsmqz0fk3a90rcuhshgh79e2")
+    "deposit_batch"
+    Expression("ENTIRE_WORKTOP")
+;
+
+// melt 40 before cooldown over - fail
+// melt 40 after cooldown over - pass
+
+CALL_METHOD
+    Address("account_rdx12xl3s3zf3w72m959f0xglwtpm4dfjpjsmqz0fk3a90rcuhshgh79e2")
+    "withdraw"
+    Address("resource_rdx1n2y299ekzx4au2v9yjmxzu650ulvk5ndx3u5tlevfclk0uvdgs30px")
+    Decimal("40")
+;
+TAKE_ALL_FROM_WORKTOP
+    Address("resource_rdx1n2y299ekzx4au2v9yjmxzu650ulvk5ndx3u5tlevfclk0uvdgs30px")
+    Bucket("payment_bucket")
+;
+CALL_METHOD
+    Address("component_rdx1czscv9f2mv034hewjplej5ef4f2ecug2fxxelfpgxrsrhw4mglq2yp")
+    "melt"
+    Bucket("payment_bucket")
+;
+CALL_METHOD
+    Address("account_rdx12xl3s3zf3w72m959f0xglwtpm4dfjpjsmqz0fk3a90rcuhshgh79e2")
+    "deposit_batch"
+    Expression("ENTIRE_WORKTOP")
+;
+
+// melt 1 by ID after cooldown over - pass
+
+CALL_METHOD
+    Address("account_rdx12xl3s3zf3w72m959f0xglwtpm4dfjpjsmqz0fk3a90rcuhshgh79e2")
+    "withdraw_non_fungibles"
+    Address("resource_rdx1n2y299ekzx4au2v9yjmxzu650ulvk5ndx3u5tlevfclk0uvdgs30px")
+    Array<NonFungibleLocalId>(
+        NonFungibleLocalId("#10#")
+    )
+;
+TAKE_NON_FUNGIBLES_FROM_WORKTOP
+    Address("resource_rdx1n2y299ekzx4au2v9yjmxzu650ulvk5ndx3u5tlevfclk0uvdgs30px")
+    Array<NonFungibleLocalId>(
+        NonFungibleLocalId("#10#")
+    )
+    Bucket("NFT_Bucket")
+;
+CALL_METHOD
+    Address("component_rdx1czscv9f2mv034hewjplej5ef4f2ecug2fxxelfpgxrsrhw4mglq2yp")
+    "melt"
+    Bucket("NFT_Bucket")
+;
+CALL_METHOD
+    Address("account_rdx12xl3s3zf3w72m959f0xglwtpm4dfjpjsmqz0fk3a90rcuhshgh79e2")
+    "deposit_batch"
+    Expression("ENTIRE_WORKTOP")
+;
+
+
+***********************************************************************************************
+***********************************************************************************************
+// Instructions
+// freeze fungibles -> nfts
+
+CALL_METHOD
+    Address("Put_your_address_here")
+    "withdraw"
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("Put_number_of_tokens_here")
+;
+TAKE_ALL_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Bucket("Fungible_Bucket")
+;
+CALL_METHOD
+    Address("component_rdx1czscv9f2mv034hewjplej5ef4f2ecug2fxxelfpgxrsrhw4mglq2yp")
+    "freeze"
+    Bucket("Fungible_Bucket")
+;
+CALL_METHOD
+    Address("Put_your_address_here")
+    "deposit_batch"
+    Expression("ENTIRE_WORKTOP")
+;
+
+// melt nfts -> fungibles
+// withdraw by amount
+
+CALL_METHOD
+    Address("Put_your_address_here")
+    "withdraw"
+    Address("resource_rdx1n2y299ekzx4au2v9yjmxzu650ulvk5ndx3u5tlevfclk0uvdgs30px")
+    Decimal("Put_number_of_tokens_here")
+;
+TAKE_ALL_FROM_WORKTOP
+    Address("resource_rdx1n2y299ekzx4au2v9yjmxzu650ulvk5ndx3u5tlevfclk0uvdgs30px")
+    Bucket("NFT_Bucket")
+;
+CALL_METHOD
+    Address("component_rdx1czscv9f2mv034hewjplej5ef4f2ecug2fxxelfpgxrsrhw4mglq2yp")
+    "melt"
+    Bucket("NFT_Bucket")
+;
+CALL_METHOD
+    Address("Put_your_address_here")
+    "deposit_batch"
+    Expression("ENTIRE_WORKTOP")
+;
+
+// melt nfts -> fungibles
+// withdraw by ids
+
+CALL_METHOD
+    Address("Put_your_address_here")
+    "withdraw"
+    Address("resource_rdx1n2y299ekzx4au2v9yjmxzu650ulvk5ndx3u5tlevfclk0uvdgs30px")
+    Decimal("Put_number_of_tokens_here")
+;
+TAKE_FROM_WORKTOP_BY_IDS 
+    Set<NonFungibleId>(NonFungibleId("id")) 
+    ResourceAddress("resource_rdx1n2y299ekzx4au2v9yjmxzu650ulvk5ndx3u5tlevfclk0uvdgs30px") 
+    Bucket("NFT_Bucket");
+;
+CALL_METHOD
+    Address("component_rdx1czscv9f2mv034hewjplej5ef4f2ecug2fxxelfpgxrsrhw4mglq2yp")
+    "melt"
+    Bucket("NFT_Bucket")
+;
+CALL_METHOD
+    Address("Put_your_address_here")
+    "deposit_batch"
+    Expression("ENTIRE_WORKTOP")
+;

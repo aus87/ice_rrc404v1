@@ -1,0 +1,50 @@
+CALL_METHOD
+    Address("Put_your_address_here")
+    "withdraw"
+    Address("resource_tdx_2_1ngqx5y5j0wk5ytzmdupj8raxej8vrsc4qrcq0kl2p0qgsu46tyxneg")
+    Decimal("Put_number_of_tokens_here")
+;
+TAKE_FROM_WORKTOP_BY_IDS 
+    Set<NonFungibleId>(NonFungibleId("id")) 
+    ResourceAddress("resource_tdx_2_1ngqx5y5j0wk5ytzmdupj8raxej8vrsc4qrcq0kl2p0qgsu46tyxneg") 
+    Bucket("NFT_Bucket");
+;
+CALL_METHOD
+    Address("component_tdx_2_1cpkcja9cfrgd6dtt0u5jc4893zdd94w060gj6f0jd4l0nl294es6kf")
+    "melt"
+    Bucket("NFT_Bucket")
+;
+CALL_METHOD
+    Address("Put_your_address_here")
+    "deposit_batch"
+    Expression("ENTIRE_WORKTOP")
+;
+
+
+# Example
+
+# CALL_METHOD
+#     Address("account_rdx12xl3s3zf3w72m959f0xglwtpm4dfjpjsmqz0fk3a90rcuhshgh79e2")
+#     "withdraw_non_fungibles"
+#     Address("resource_rdx1n2y299ekzx4au2v9yjmxzu650ulvk5ndx3u5tlevfclk0uvdgs30px")
+#     Array<NonFungibleLocalId>(
+#         NonFungibleLocalId("#10#")
+#     )
+# ;
+# TAKE_NON_FUNGIBLES_FROM_WORKTOP
+#     Address("resource_rdx1n2y299ekzx4au2v9yjmxzu650ulvk5ndx3u5tlevfclk0uvdgs30px")
+#     Array<NonFungibleLocalId>(
+#         NonFungibleLocalId("#10#")
+#     )
+#     Bucket("NFT_Bucket")
+# ;
+# CALL_METHOD
+#     Address("component_rdx1czscv9f2mv034hewjplej5ef4f2ecug2fxxelfpgxrsrhw4mglq2yp")
+#     "melt"
+#     Bucket("NFT_Bucket")
+# ;
+# CALL_METHOD
+#     Address("account_rdx12xl3s3zf3w72m959f0xglwtpm4dfjpjsmqz0fk3a90rcuhshgh79e2")
+#     "deposit_batch"
+#     Expression("ENTIRE_WORKTOP")
+# ;
