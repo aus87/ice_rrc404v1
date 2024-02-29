@@ -48,3 +48,33 @@ CALL_METHOD
 #     "deposit_batch"
 #     Expression("ENTIRE_WORKTOP")
 # ;
+
+# Multiple melts by ID
+
+CALL_METHOD
+    Address("account_rdx12xl3s3zf3w72m959f0xglwtpm4dfjpjsmqz0fk3a90rcuhshgh79e2")
+    "withdraw_non_fungibles"
+    Address("resource_rdx1n2y299ekzx4au2v9yjmxzu650ulvk5ndx3u5tlevfclk0uvdgs30px")
+    Array<NonFungibleLocalId>(
+        NonFungibleLocalId("#10#"),
+        NonFungibleLocalId("#11#")
+    )
+;
+TAKE_NON_FUNGIBLES_FROM_WORKTOP
+    Address("resource_rdx1n2y299ekzx4au2v9yjmxzu650ulvk5ndx3u5tlevfclk0uvdgs30px")
+    Array<NonFungibleLocalId>(
+        NonFungibleLocalId("#10#"),
+        NonFungibleLocalId("#11#")
+    )
+    Bucket("NFT_Bucket")
+;
+CALL_METHOD
+    Address("component_rdx1czscv9f2mv034hewjplej5ef4f2ecug2fxxelfpgxrsrhw4mglq2yp")
+    "melt"
+    Bucket("NFT_Bucket")
+;
+CALL_METHOD
+    Address("account_rdx12xl3s3zf3w72m959f0xglwtpm4dfjpjsmqz0fk3a90rcuhshgh79e2")
+    "deposit_batch"
+    Expression("ENTIRE_WORKTOP")
+;
