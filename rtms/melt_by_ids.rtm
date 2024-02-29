@@ -1,7 +1,7 @@
 CALL_METHOD
     Address("Put_your_address_here")
     "withdraw"
-    Address("resource_tdx_2_1ngqx5y5j0wk5ytzmdupj8raxej8vrsc4qrcq0kl2p0qgsu46tyxneg")
+    Address("resource_rdx1n2y299ekzx4au2v9yjmxzu650ulvk5ndx3u5tlevfclk0uvdgs30px")
     Decimal("Put_number_of_tokens_here")
 ;
 TAKE_FROM_WORKTOP_BY_IDS 
