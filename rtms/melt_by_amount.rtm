@@ -1,15 +1,15 @@
 CALL_METHOD
     Address("Put_your_address_here")
     "withdraw"
-    Address("resource_tdx_2_1ngqx5y5j0wk5ytzmdupj8raxej8vrsc4qrcq0kl2p0qgsu46tyxneg")
+    Address("resource_rdx1n2y299ekzx4au2v9yjmxzu650ulvk5ndx3u5tlevfclk0uvdgs30px")
     Decimal("Put_number_of_tokens_here")
 ;
 TAKE_ALL_FROM_WORKTOP
-    Address("resource_tdx_2_1ngqx5y5j0wk5ytzmdupj8raxej8vrsc4qrcq0kl2p0qgsu46tyxneg")
+    Address("resource_rdx1n2y299ekzx4au2v9yjmxzu650ulvk5ndx3u5tlevfclk0uvdgs30px")
     Bucket("NFT_Bucket")
 ;
 CALL_METHOD
-    Address("component_tdx_2_1cpkcja9cfrgd6dtt0u5jc4893zdd94w060gj6f0jd4l0nl294es6kf")
+    Address("component_rdx1czscv9f2mv034hewjplej5ef4f2ecug2fxxelfpgxrsrhw4mglq2yp")
     "melt"
     Bucket("NFT_Bucket")
 ;
