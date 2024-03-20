@@ -1,0 +1,881 @@
+CALL_METHOD
+    Address("account_rdx12xl3s3zf3w72m959f0xglwtpm4dfjpjsmqz0fk3a90rcuhshgh79e2")
+    "withdraw"
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("79")
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket1")
+;
+CALL_METHOD
+    Address("account_rdx16x3a4dkxhjk586y9uu4yjtkmd08ydyt3ak5reacxlg50gxyk0aunx2")
+    "try_deposit_or_refund"
+    Bucket("bucket1")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket2")
+;
+CALL_METHOD
+    Address("account_rdx168y95l3xxyktr0jpmmjpv4kjedg2z8fuk5xffd5m7k7e4ly20mnetv")
+    "try_deposit_or_refund"
+    Bucket("bucket2")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket3")
+;
+CALL_METHOD
+    Address("account_rdx16yuqrj69adhwww9rgaw3t9thpfxj9qvfj0jjxq227dcr6cmflqp0ef")
+    "try_deposit_or_refund"
+    Bucket("bucket3")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket4")
+;
+CALL_METHOD
+    Address("account_rdx16xaskuung5yr9ksl5f0syf2h44t286hf6qv6fytsjztkw5xa7l0q57")
+    "try_deposit_or_refund"
+    Bucket("bucket4")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket5")
+;
+CALL_METHOD
+    Address("account_rdx169jz454nfatghx4lfy8cxcn9j96yyea8u0t8nxgw7yk0jwrjxterjp")
+    "try_deposit_or_refund"
+    Bucket("bucket5")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket6")
+;
+CALL_METHOD
+    Address("account_rdx16yjsuttjlal3xsk6yq2rr34ex3s9kuf7aygjrynpk2yzj0agauq3v3")
+    "try_deposit_or_refund"
+    Bucket("bucket6")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket7")
+;
+CALL_METHOD
+    Address("account_rdx1680p89r75t9sq29kkd23qwp2hhz29cn8nv0xhc7ul6k3ad4cx2nk03")
+    "try_deposit_or_refund"
+    Bucket("bucket7")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket8")
+;
+CALL_METHOD
+    Address("account_rdx16ytmj8w0wayf23uv8lux6wrvskgwdy3h3aa4vtpuwr5exmrxjj8th2")
+    "try_deposit_or_refund"
+    Bucket("bucket8")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket9")
+;
+CALL_METHOD
+    Address("account_rdx1693s5nkdke6008evd54vg63kjpspm2qdzmnsy7y6urx7dp6lg6htv9")
+    "try_deposit_or_refund"
+    Bucket("bucket9")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket10")
+;
+CALL_METHOD
+    Address("account_rdx16yza6xrdzzlcxgc0p0dxaeem2cwuqhq8h6zmv7qxawpqhepgx3eeem")
+    "try_deposit_or_refund"
+    Bucket("bucket10")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket11")
+;
+CALL_METHOD
+    Address("account_rdx16x9h98lp94c5en2dc9rxxfug7p86g9nk856mlsv5gz2aw9q4znf6ee")
+    "try_deposit_or_refund"
+    Bucket("bucket11")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket12")
+;
+CALL_METHOD
+    Address("account_rdx16xd788pfw3lutv2klew0r0wpvgx720dejnxx22yzsc49jjhgpvszct")
+    "try_deposit_or_refund"
+    Bucket("bucket12")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket13")
+;
+CALL_METHOD
+    Address("account_rdx168ke9d2eqjp2za0tcpq54zx7slak2jqh7hu4gljj05fcsg4vsqycd2")
+    "try_deposit_or_refund"
+    Bucket("bucket13")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket14")
+;
+CALL_METHOD
+    Address("account_rdx16y9xu9d5zv3vfg3ugqlqujhgeg2d5t4cu83mucx3fdssly9zmj0ylj")
+    "try_deposit_or_refund"
+    Bucket("bucket14")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket15")
+;
+CALL_METHOD
+    Address("account_rdx168hqmldumaq7y4shn8fje39g34xlkdkd23ed2ewwsq0gls6tk2j2la")
+    "try_deposit_or_refund"
+    Bucket("bucket15")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket16")
+;
+CALL_METHOD
+    Address("account_rdx1699kfyghcggxtpwnhw8k2g5e6unt5dx9n7r7txj0esv9xej3qyutfp")
+    "try_deposit_or_refund"
+    Bucket("bucket16")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket17")
+;
+CALL_METHOD
+    Address("account_rdx16xf99sthyn8ud9nr97vtds7tf9dpml48qcc9cpr3yf0t097llt9e09")
+    "try_deposit_or_refund"
+    Bucket("bucket17")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket18")
+;
+CALL_METHOD
+    Address("account_rdx169c0rtcg82l3vqrmvxd4cvzdp2ufkcfctcngpelgwwzn2gu9ruydmf")
+    "try_deposit_or_refund"
+    Bucket("bucket18")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket19")
+;
+CALL_METHOD
+    Address("account_rdx169puu6828u70apau37jxxx9l54cxq7q4t2y39xa0wv28lsdlnapu88")
+    "try_deposit_or_refund"
+    Bucket("bucket19")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket20")
+;
+CALL_METHOD
+    Address("account_rdx169fk69n3dsu57jud2f6vf6kvuxr62ffp59a9w6m78e3t7hd5c4rlex")
+    "try_deposit_or_refund"
+    Bucket("bucket20")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket21")
+;
+CALL_METHOD
+    Address("account_rdx1699kfyghcggxtpwnhw8k2g5e6unt5dx9n7r7txj0esv9xej3qyutfp")
+    "try_deposit_or_refund"
+    Bucket("bucket21")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket22")
+;
+CALL_METHOD
+    Address("account_rdx169t5kaft6hae9j07qqnfgmlnpgneu0508hpx000azr6pl67sjde0qn")
+    "try_deposit_or_refund"
+    Bucket("bucket22")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket23")
+;
+CALL_METHOD
+    Address("account_rdx169tf47rfhse4gkxpz2c4lj50wwpre0fkh2u9zd5p77tvu79t9a5sm4")
+    "try_deposit_or_refund"
+    Bucket("bucket23")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket24")
+;
+CALL_METHOD
+    Address("account_rdx169qwathg0v6vj7tkkjaug33k0kh0tutlushnwyz66t6c470h0s2amj")
+    "try_deposit_or_refund"
+    Bucket("bucket24")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket25")
+;
+CALL_METHOD
+    Address("account_rdx16xl724lymzrdauuqj4xmg09kxkfh5vjjjxyzuezuxs2e0qpn450cmx")
+    "try_deposit_or_refund"
+    Bucket("bucket25")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket26")
+;
+CALL_METHOD
+    Address("account_rdx16xsp80tr6qhjthz5plupr5agckhwldxyrr5rcjpf3aeyxuhtzdvll7")
+    "try_deposit_or_refund"
+    Bucket("bucket26")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket27")
+;
+CALL_METHOD
+    Address("account_rdx169htr5l6w399h30d55ltx52des2wgfhrcz092hr7y2yn5uzgcd8nv9")
+    "try_deposit_or_refund"
+    Bucket("bucket27")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket28")
+;
+CALL_METHOD
+    Address("account_rdx16834pvtphrlwmjnk3kw7zp6tuh0stdac5rgpy8k6m397r58jhljspu")
+    "try_deposit_or_refund"
+    Bucket("bucket28")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket29")
+;
+CALL_METHOD
+    Address("account_rdx168arxd48r4s6cmmhw4zv33q6tj2lns35hhm9943v3e07c32890zesy")
+    "try_deposit_or_refund"
+    Bucket("bucket29")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket30")
+;
+CALL_METHOD
+    Address("account_rdx16xjvxry0cwy6shtl9ceyvpsp5z658d77gxxdqs2xhtjgsaq65msh0y")
+    "try_deposit_or_refund"
+    Bucket("bucket30")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket31")
+;
+CALL_METHOD
+    Address("account_rdx168r7qnu4ej3atw5uekpfcnt4ttuqh0ennmn2sa04x58adr0l5rn564")
+    "try_deposit_or_refund"
+    Bucket("bucket31")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket32")
+;
+CALL_METHOD
+    Address("account_rdx16yzf5jpc3hfakzr0gtemw58unfktchlkrmgzk6t9w4nzp2al50cgqx")
+    "try_deposit_or_refund"
+    Bucket("bucket32")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket33")
+;
+CALL_METHOD
+    Address("account_rdx16x9hzhwkf2tnfp4upv03qt703v2egjy22xrhkey8xl9fd90fqy49tp")
+    "try_deposit_or_refund"
+    Bucket("bucket33")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket34")
+;
+CALL_METHOD
+    Address("account_rdx16xne7wxp40c868jwh7kqm0nk7rur7tx9epw3hjrtscsslhvt6tq3rj")
+    "try_deposit_or_refund"
+    Bucket("bucket34")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket35")
+;
+CALL_METHOD
+    Address("account_rdx16yqmkg4yuelgnshu8gj0at27d5dxlmw8qctm2lkrayyzjgpqm0k63v")
+    "try_deposit_or_refund"
+    Bucket("bucket35")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket36")
+;
+CALL_METHOD
+    Address("account_rdx1685w2yghxrpcfu43ckjxzatvjf68yydhjlgyr452z09ergmj300uzd")
+    "try_deposit_or_refund"
+    Bucket("bucket36")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket37")
+;
+CALL_METHOD
+    Address("account_rdx16yxas6806n70dhcltejjpueat6udad66u0ddl4vf3zlelcv0qh5nus")
+    "try_deposit_or_refund"
+    Bucket("bucket37")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket38")
+;
+CALL_METHOD
+    Address("account_rdx1699a3g8udp0l60qjxgatjhv9nqdk4ve3uwrcru5hn6rg53n4u45fg6")
+    "try_deposit_or_refund"
+    Bucket("bucket38")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket39")
+;
+CALL_METHOD
+    Address("account_rdx169qsvks5pvvkqwm7ntmplxmww9jxfvtcmdmvn4rgaydem04htkfhqh")
+    "try_deposit_or_refund"
+    Bucket("bucket39")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket40")
+;
+CALL_METHOD
+    Address("account_rdx16xmjd6gv3spuye78tszyjygw67sfcxatxrlp2f9p8npjlajq92ngv2")
+    "try_deposit_or_refund"
+    Bucket("bucket40")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket41")
+;
+CALL_METHOD
+    Address("account_rdx16x648fpaldudvprhq9vnlvu9k40dmvznwda2zyatla5jt5nwz9344s")
+    "try_deposit_or_refund"
+    Bucket("bucket41")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket42")
+;
+CALL_METHOD
+    Address("account_rdx168ke9d2eqjp2za0tcpq54zx7slak2jqh7hu4gljj05fcsg4vsqycd2")
+    "try_deposit_or_refund"
+    Bucket("bucket42")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket43")
+;
+CALL_METHOD
+    Address("account_rdx16y4plnyucr5z7msc9jnzrgseu7r3ecvpz5fg8wpmfwdnvvgt8y0t97")
+    "try_deposit_or_refund"
+    Bucket("bucket43")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket44")
+;
+CALL_METHOD
+    Address("account_rdx1694ullvfs94thnzrl6dplw3mxw5dyalsdv978t74ycp6zwayecenw5")
+    "try_deposit_or_refund"
+    Bucket("bucket44")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket45")
+;
+CALL_METHOD
+    Address("account_rdx12xk3vr7yn0xayjexxfvksdvqxmts3k7xfz8rzjvuz4wstcdkg2t7un")
+    "try_deposit_or_refund"
+    Bucket("bucket45")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket46")
+;
+CALL_METHOD
+    Address("account_rdx168r2eggtjrlj89uhx356y9dwqr6v7e9a4rgajz72samu626dtkx7qf")
+    "try_deposit_or_refund"
+    Bucket("bucket46")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket47")
+;
+CALL_METHOD
+    Address("account_rdx16x57jvmckm0a3f3zduyutdank9kkz0x6kk9aflwckvy4y0zv0k4cg4")
+    "try_deposit_or_refund"
+    Bucket("bucket47")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket48")
+;
+CALL_METHOD
+    Address("account_rdx169ysh6u6m9l9y6upuw503zut4mry5kfk98uwxzfnjspku8k3sxgq4c")
+    "try_deposit_or_refund"
+    Bucket("bucket48")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket49")
+;
+CALL_METHOD
+    Address("account_rdx16828l6dpn3nvygufudzxp2t460kng79vvp7yagcx5emfxkpn7w3hff")
+    "try_deposit_or_refund"
+    Bucket("bucket49")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket50")
+;
+CALL_METHOD
+    Address("account_rdx16xtggl9m4lyxc9x3qwrlxmln5smfrksz0au5vjsnwmg2s7n9xr4l5r")
+    "try_deposit_or_refund"
+    Bucket("bucket50")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket51")
+;
+CALL_METHOD
+    Address("account_rdx168sa4c6esgetjqsvmqv585n9qhxj48rdyan9gmztpu8jdenzd4qzvk")
+    "try_deposit_or_refund"
+    Bucket("bucket51")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket52")
+;
+CALL_METHOD
+    Address("account_rdx16xf99sthyn8ud9nr97vtds7tf9dpml48qcc9cpr3yf0t097llt9e09")
+    "try_deposit_or_refund"
+    Bucket("bucket52")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket53")
+;
+CALL_METHOD
+    Address("account_rdx169a3tc7c0w2jz64aqc6j3fj3aw5y9tgdknv5v79ce6janx9jcenrpn")
+    "try_deposit_or_refund"
+    Bucket("bucket53")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket54")
+;
+CALL_METHOD
+    Address("account_rdx1682m3q6njm37alnplrwmjpmjdg0m6dt6ar8a9zm2em344xaygg3d2p")
+    "try_deposit_or_refund"
+    Bucket("bucket54")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket55")
+;
+CALL_METHOD
+    Address("account_rdx16xf7ccr4eda8uy2rj0rwl36qe3tvqj4xl00tuv8z8l7zlpjspnyezk")
+    "try_deposit_or_refund"
+    Bucket("bucket55")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket56")
+;
+CALL_METHOD
+    Address("account_rdx168mj6lwxy73zm6vluh7ems9ge3cv7mx40jwaner3u3h9htefncanax")
+    "try_deposit_or_refund"
+    Bucket("bucket56")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket57")
+;
+CALL_METHOD
+    Address("account_rdx16xwmhxzxhvaeugwt0pv2gy8dslgyjyze7w4x3g0dpa2459xrat7crz")
+    "try_deposit_or_refund"
+    Bucket("bucket57")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket58")
+;
+CALL_METHOD
+    Address("account_rdx168hqmldumaq7y4shn8fje39g34xlkdkd23ed2ewwsq0gls6tk2j2la")
+    "try_deposit_or_refund"
+    Bucket("bucket58")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket59")
+;
+CALL_METHOD
+    Address("account_rdx168ddfczczvvvxmtkk0ue6k44s4f478u64s796yjkwguhy5j6jcwaz6")
+    "try_deposit_or_refund"
+    Bucket("bucket59")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket60")
+;
+CALL_METHOD
+    Address("account_rdx16xy4848vn64ugq6smrsm2tkwyke3saat64fc5e4uxjz0yl8nhnc9k4")
+    "try_deposit_or_refund"
+    Bucket("bucket60")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket61")
+;
+CALL_METHOD
+    Address("account_rdx169armrac35eqy7vyq07q98lsv4j9p8x9ah59mtk5cmeagykmaz748x")
+    "try_deposit_or_refund"
+    Bucket("bucket61")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket62")
+;
+CALL_METHOD
+    Address("account_rdx169hrpepe62cu4e67pzl6gwlnr4r2yg8r4vt89xapuul04gvqzvxd54")
+    "try_deposit_or_refund"
+    Bucket("bucket62")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket63")
+;
+CALL_METHOD
+    Address("account_rdx169ch72gu5m3zh3v0wa9fx6prcu946hxhfkx3k6xhq2z0j5cd2pnzhp")
+    "try_deposit_or_refund"
+    Bucket("bucket63")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket64")
+;
+CALL_METHOD
+    Address("account_rdx16yf8av38thef289c4cytut4watzz9gs9srsnh60jlmcwp52wykspgw")
+    "try_deposit_or_refund"
+    Bucket("bucket64")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket65")
+;
+CALL_METHOD
+    Address("account_rdx128zsrvhccw0rwcs06at6e88lruezyjlm2n4f083ql8fm5z4u2j7atv")
+    "try_deposit_or_refund"
+    Bucket("bucket65")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket66")
+;
+CALL_METHOD
+    Address("account_rdx16yxhe5s2h8cjz47gdf5n4usg7dfxyrarugfw5r9ve8s57nzdtg9squ")
+    "try_deposit_or_refund"
+    Bucket("bucket66")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket67")
+;
+CALL_METHOD
+    Address("account_rdx168pxnanfm3y9zrn38ttstm68gd0auy58mduatsml4lr3a7659mtrr2")
+    "try_deposit_or_refund"
+    Bucket("bucket67")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket68")
+;
+CALL_METHOD
+    Address("account_rdx16ydlw7jgrr8ddy7avrd0waflfluguvlnjjtkzgq28eyq5ajj2ag6h7")
+    "try_deposit_or_refund"
+    Bucket("bucket68")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket69")
+;
+CALL_METHOD
+    Address("account_rdx16x3df00vw8fe2y7y4yh8ldyvnktkze9p83e24u5u3yl5c89wn32l7m")
+    "try_deposit_or_refund"
+    Bucket("bucket69")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket70")
+;
+CALL_METHOD
+    Address("account_rdx1693szvpu7d0nc5ylc2rulr65sf6yhrlu7tfz825y7vh86sxt37x2sg")
+    "try_deposit_or_refund"
+    Bucket("bucket70")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket71")
+;
+CALL_METHOD
+    Address("account_rdx169jnhga9usk2qc87fsks6nufakxu7np4wsgx2xwn88up3rn0zx8sc8")
+    "try_deposit_or_refund"
+    Bucket("bucket71")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket72")
+;
+CALL_METHOD
+    Address("account_rdx169c3dcqs6tgddfewyvuhdfqf7tg84jmzef08pmukr3y2hzzt9aj3dy")
+    "try_deposit_or_refund"
+    Bucket("bucket72")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket73")
+;
+CALL_METHOD
+    Address("account_rdx169gqjqumqegmlzyw3ddu0edhkw9wfd5ge076qqmcng3gcs7fc66j8t")
+    "try_deposit_or_refund"
+    Bucket("bucket73")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket74")
+;
+CALL_METHOD
+    Address("account_rdx16ym8j8scknw8qk0vs2wxh0nn8yj878a8qgy0cayvnpzqnsqdh6wf3v")
+    "try_deposit_or_refund"
+    Bucket("bucket74")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket75")
+;
+CALL_METHOD
+    Address("account_rdx168030sml62xd68ltwnhz8qe2qzd9guw6nglzz68exxelvq68medzrd")
+    "try_deposit_or_refund"
+    Bucket("bucket75")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket76")
+;
+CALL_METHOD
+    Address("account_rdx16y98j54sfc53dykpaeeadx7034d0lllgxyrl6lnjwpqwrlu4yd302j")
+    "try_deposit_or_refund"
+    Bucket("bucket76")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket77")
+;
+CALL_METHOD
+    Address("account_rdx169q6g4pec5z8l3dq73ffrugyxnf8xe2ww730yanwtyc48e7tzawyex")
+    "try_deposit_or_refund"
+    Bucket("bucket77")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket78")
+;
+CALL_METHOD
+    Address("account_rdx16xet2vwd69kwurwcsrmynngf0crf3ndqr5dzqh2kunhvlrtr0jsj80")
+    "try_deposit_or_refund"
+    Bucket("bucket78")
+    Enum<0u8>()
+;
+TAKE_FROM_WORKTOP
+    Address("resource_rdx1t4h4396mukhpzdrr5sfvegjsxl8q7a34q2vkt4quxcxahna8fucuz4")
+    Decimal("1")
+    Bucket("bucket79")
+;
+CALL_METHOD
+    Address("account_rdx169g29cqm4yyksvt3prjulxuamq884v683qt6npfy4eyfu0zh9c26xk")
+    "try_deposit_or_refund"
+    Bucket("bucket79")
+    Enum<0u8>()
+;
+CALL_METHOD
+    Address("account_rdx12xl3s3zf3w72m959f0xglwtpm4dfjpjsmqz0fk3a90rcuhshgh79e2")
+    "deposit_batch"
+    Expression("ENTIRE_WORKTOP")
+;
+
