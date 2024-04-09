@@ -188,7 +188,6 @@ mod rrc404 {
         
                 let mut new_nft: Bucket = Bucket::new(self.rrc404_nft.address());
                 new_nft.put(self.rrc404_nft.mint_non_fungible(&nft_id.into(), data));
-                new_nft.resource_manager().set_metadata("key_image_url", color.url());
         
                 nft_bucket.put(new_nft);
                 self.nft_counter += 1;
